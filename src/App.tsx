@@ -1,5 +1,14 @@
+import Box from "./components/Box";
+import Draggable from "./components/Draggable";
+
 function App() {
-  return <div className="App">App</div>;
+  return (
+    <div className="App">
+      <Draggable>
+        <Box />
+      </Draggable>
+    </div>
+  );
 }
 
 export default App;
